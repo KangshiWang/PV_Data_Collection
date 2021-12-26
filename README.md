@@ -11,4 +11,4 @@ Voltage at Pmpp | 17.82V
 Current at Pmpp | 2.80A 
 Cells per Module | 36  
 
-I used PROVA-1011 PV System Analyzer to record the IV curve for PV system.  
+I used PROVA-1011 PV System Analyzer to record the IV curve for PV system. The reference irradiances & temperatures of solar panels are also recorded by the PROVA-1011. In this file, you can find an example code to have a preview of these data.
