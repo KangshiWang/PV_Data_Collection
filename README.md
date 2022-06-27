@@ -1,7 +1,20 @@
 # PV_Data_Collection
  
-2020-12-WIC is a data-set which contains the output characteristics of a 3-series PV string over 3 days (from 2021/12/21 to 2021/12/23). Data collections were conducted on a hydrophilic platform at Xi'an Jiaotong-Liverpool University (latitude 31.269° N and longitude 120.740° E), where the PV string is affected by the shadows of near-by buildings, landscape facilities, and plants. The specifications of the PV module used in this data-set is listed as follows.
- 
+Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing a data collection system. This system automatically and continuously collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
+
+
+##	PV strings (PVS) characteristic recording system
+<div align="center">
+  <img src="https://github.com/KangshiWang/pics/1.png">
+</div>
+The system has an automatic switching system (URL: ) Controlled by computer, the output characteristics of PV string with different PV modules (PVMs) are continuously recorded. It also records light (in LUS), solar irradiance (in W/m^2), wind speed (in m/s), wind direction, temperature (in Celsius), humidity (in %RH), PM2.5 (μg/m^3), PM10 (μg/m^3), rainfall data (mm).
+
+Under the PVS/PV_WeatherStation folder, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is xxx.mat.
+
+Under the PVS/PV_dcLoad folder, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). ‘_2’ means the data is collected on a PVS with 2 serious connected PVMs. The example read MATLAB script is xxx.mat. 
+
+Under the record folder of each group in each day, you can also see the following preview of the data (in JPG format).
+
 Parameter| Value 
  ---- | ----- 
 Maximum Power Pmpp | 50.00W 
@@ -10,5 +23,4 @@ Short Circuit Current Isc | 3.18A
 Voltage at Pmpp | 17.82V  
 Current at Pmpp | 2.80A 
 Cells per Module | 36  
-
-I used PROVA-1011 PV System Analyzer to record the IV curve for PV system. The reference irradiances & temperatures of solar panels are also recorded by the PROVA-1011. In this file, you can find an example code to have a preview of these data.
+ 
