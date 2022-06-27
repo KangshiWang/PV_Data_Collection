@@ -13,7 +13,7 @@ The system has an automatic switching system (URL: ). The output characteristics
 
 Under the **PVS/PV_WeatherStation** folder, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is **xxx.mat**.
 
-Under the **PVS/PV_dcLoad** folder, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). _2 means the data is collected on a PVS with 2 serious connected PVMs. The example read MATLAB script is **xxx.mat**. 
+Under the **PVS/PV_dcLoad** folder, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). _2 means the data is collected on a PVS with 2 series-connected PVMs. The example read MATLAB script is **xxx.mat**. 
 
 Under the record folder of each group in each day, you can also see the following preview of the data (in JPG format).
 
