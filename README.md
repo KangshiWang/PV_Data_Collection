@@ -45,12 +45,15 @@ The sky images are recorded in the **PVS/CAM directory**. For example, as the fo
 The specifications for the PV modules in this data collection system is shown as follows:
 Parameter| Value 
  ---- | ----- 
+Name | SWM10W
 Maximum Power Pmpp | 10.00W 
 Open Circuit Voltage Voc  | 18.68V  
 Short Circuit Current Isc | 0.53A 
 Voltage at Pmpp | xxV  
 Current at Pmpp | xxA 
 Cells per Module | xx 
+Size | 290*240*17mm
+Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
 ##	PV modules (PVMs) characteristic recording system
 
@@ -70,6 +73,7 @@ Open Circuit Voltage Voc  | 21.5V
 Short Circuit Current Isc | 2.5A 
 Voltage at Pmpp | 18.5V  
 Current at Pmpp | 1.5A   
+
 (To be continued)
 
  
