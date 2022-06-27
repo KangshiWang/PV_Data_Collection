@@ -9,11 +9,11 @@ Today, photovoltaic (PV) systems are widely integrated in industrial, commercial
   <img src="https://github.com/KangshiWang/pics/blob/main/1.png">
 </div>
 
-The system has an automatic switching system (URL: ) Controlled by computer, the output characteristics of PV string with different PV modules (PVMs) are continuously recorded. It also records light (in LUS), solar irradiance (in W/m^2), wind speed (in m/s), wind direction, temperature (in Celsius), humidity (in %RH), PM2.5 (μg/m^3), PM10 (μg/m^3), rainfall data (mm).
+The system has an automatic switching system (URL: ). The output characteristics of PV string with different number of PV modules (PVMs) are continuously recorded. It also records light (in LUS), solar irradiance (in W/m^2), wind speed (in m/s), wind direction, temperature (in Celsius), humidity (in %RH), PM2.5 (μg/m^3), PM10 (μg/m^3), rainfall data (mm).
 
-Under the **PVS/PV_WeatherStation folder**, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is xxx.mat.
+Under the **PVS/PV_WeatherStation** folder, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is **xxx.mat**.
 
-Under the **PVS/PV_dcLoad folder**, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). _2 means the data is collected on a PVS with 2 serious connected PVMs. The example read MATLAB script is xxx.mat. 
+Under the **PVS/PV_dcLoad** folder, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). _2 means the data is collected on a PVS with 2 serious connected PVMs. The example read MATLAB script is **xxx.mat**. 
 
 Under the record folder of each group in each day, you can also see the following preview of the data (in JPG format).
 
@@ -53,6 +53,23 @@ Current at Pmpp | xxA
 Cells per Module | xx 
 
 ##	PV modules (PVMs) characteristic recording system
+
+<div align="center">
+  <img src="https://github.com/KangshiWang/pics/blob/main/5.png">
+</div> 
+
+Unlike the PVS characteristic recording system, the PVM characteristic recording system records the output characteristics of different PV modules. They have a similar system architecture, but different switching systems. The design files of the automatic switching system used in the PVM characteristic recording system could be found here: . 
+
+The specifications for the PV modules in this data collection system is shown as follows:
+
+Monocrystalline/Polycrystalline 30W PV module
+Parameter| Value 
+ ---- | -----  
+Maximum Power Pmpp | 30.0W 
+Open Circuit Voltage Voc  | 21.5V  
+Short Circuit Current Isc | 2.5A 
+Voltage at Pmpp | 18.5V  
+Current at Pmpp | 1.5A   
 (To be continued)
 
  
