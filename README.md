@@ -52,7 +52,7 @@ Short Circuit Current Isc | 0.53A
 Voltage at Pmpp | xxV  
 Current at Pmpp | xxA 
 Cells per Module | xx 
-Size | 290*240*17mm
+Size | 290 \times 240 \times 17 mm
 Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
 ##	PV modules (PVMs) characteristic recording system
@@ -76,5 +76,14 @@ Current at Pmpp | 1.5A
 
 (To be continued)
 
+##	Cautions
+### 1. The daily maintenance of the system and the uploading of data are basically from 11pm to 12pm (China Standard Time, UTC +8), during which time the data may not be recorded continuously.
+### 2. The data on a daily basis may not be continuous, as I may choose to shut down the entire system on certain days for maintenance.
+### 3. I use the code of Richard Droste et al. to calculate the local sunrise and sunset times (https://rdroste.com/project/sunrise-sunset/).
+### 4. The electroinc loads used in these systems are from ITECH ELECTRONIC CO.,LTD. (IT8511A+,IT8512).
+### 5. At sunrise, the sky camera may be covered with dew. In rainy days, the sky cam does not work well. In sunny weather, sky camera is not very good for sun capture either. In fact I plan to replace this camera.
+### 6. The rainfall data is collected from an optical rain gauge, and each system reset causes the cumulative number of rainfall to change to 0.
+
+ 
  
  
