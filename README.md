@@ -1,6 +1,6 @@
 # PV_Data_Collection
  
-Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing a data collection system. This system automatically and continuously collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
+Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing a data collection system. This system automatically collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
 
 
 ##	PV strings (PVS) characteristic recording system
