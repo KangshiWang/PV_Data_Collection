@@ -18,9 +18,9 @@ Least Update in 29, June, 2022
 
 The system has an automatic switching system (URL: ). The output characteristics of PV string with different number of PV modules (PVMs) are continuously recorded. It also records light (in LUS), solar irradiance (in W/m^2), wind speed (in m/s), wind direction, temperature (in Celsius), humidity (in %RH), PM2.5 (μg/m^3), PM10 (μg/m^3), rainfall data (mm).
 
-Under the **PVS/PV_WeatherStation** folder, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is **xxx.mat**.
+Under the folder **PVS1/PV_WeatherStation**, the daily atmospheric data is stored. The format of the subfolders is named according to the date of the record. The example read MATLAB script is **xxx.mat**.
 
-Under the **PVS/PV_dcLoad** folder, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)-23(day). _2 means the data is collected on a PVS with 2 series-connected PVMs. The example read MATLAB script is **xxx.mat**. 
+Under the folder **PVS1/PV_dcLoad**, the PV characteristic data is stored. The format of the subfolders is named according to the date of the record and the number of PVMs. For example, 2022-06-23_2 means the PV characteristic data is collected on 2022(year)-06(month)_23(day). _2 means the data is collected on a PVS with 2 series-connected PVMs. The example read MATLAB script is **xxx.mat**. 
 
 Under the record folder of each group in each day, you can also see the following preview of the data (in JPG format).
 
@@ -44,7 +44,7 @@ run the **previewOneDay.m**, you can get this:
  
 Note that the horizontal axis is in actual time. 
 
-The sky images are recorded in the **PVS/CAM directory**. For example, as the following images.
+The sky images are recorded in the **PVS1/CAM directory**. For example, as the following images.
 <div align="center">
   <img src="https://github.com/KangshiWang/pics/blob/main/4.jpg">
 </div> 
@@ -70,6 +70,12 @@ Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
 Unlike the PVS characteristic recording system, the PVM characteristic recording system records the output characteristics of different PV modules. They have a similar system architecture, but different switching systems. The design files of the automatic switching system used in the PVM characteristic recording system could be found here: . 
 
+Under the folder **PVM1/PV_dcLoad**, different PVM's output characteristics are recorded. The folders are name with YYYY-MM-DD-Z, where Z is the module id form 'A' to 'Z'. For example, under the folder **PVM1/PV_dcLoad/2022-06-28_A**, it records the output characteristics of the PVM A in 2022-06-28. As for now, the chanel A-E and T-X, totally 10 chanels are used.
+
+Chanel A-Z: Polycrystalline XKD-30W
+
+Chanel T-X: Monocrystalline XKD-30W
+
 The specifications for the PV modules in this data collection system is shown as follows:
 
 Monocrystalline/Polycrystalline 30W PV module
@@ -80,7 +86,7 @@ Maximum Power Pmpp | 30.0W
 Open Circuit Voltage Voc  | 22.02V  
 Short Circuit Current Isc | 2.11A 
 Voltage at Pmpp | 17.95V  
-Current at Pmpp | 1.92A   
+Current at Pmpp | 1.92A
 
 (To be continued)
 
