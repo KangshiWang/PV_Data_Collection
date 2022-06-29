@@ -44,7 +44,7 @@ run the **previewOneDay.m**, you can get this:
  
 Note that the horizontal axis is in actual time. 
 
-The sky images are recorded in the **PVS1/CAM directory**. For example, as the following images.
+The sky images are recorded in the **PVS1/CAM**. For example, as the following images.
 <div align="center">
   <img src="https://github.com/KangshiWang/pics/blob/main/4.jpg">
 </div> 
