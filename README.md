@@ -49,7 +49,7 @@ The sky images are recorded in the **PVS1/CAM**. For example, as the following i
   <img src="https://github.com/KangshiWang/pics/blob/main/4.jpg">
 </div> 
 
-The specifications for the PV modules in this data collection system is shown as follows:
+The specifications for the PV modules in the PVS1 collection system is shown as follows.
 Parameter| Value 
  ---- | ----- 
 Name | SWM10W
@@ -58,7 +58,7 @@ Open Circuit Voltage Voc  | 22.32V
 Short Circuit Current Isc | 0.58A 
 Voltage at Pmpp | 18.18V  
 Current at Pmpp | 0.55A 
-Cells per Module | 36 (Mono-crystalline silicon) 
+Cells per Module | 36 (Monocrystalline silicon) 
 Size | 290 \times 240 \times 17 mm
 Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
@@ -76,12 +76,12 @@ Chanel A-Z: Polycrystalline XKD-30W
 
 Chanel T-X: Monocrystalline XKD-30W
 
-The specifications for the PV modules in this data collection system is shown as follows:
+The specifications for the PV modules in this data collection system is shown as follows.
 
-Monocrystalline/Polycrystalline 30W PV module
 Parameter| Value 
  ---- | -----  
 Name | XKD-30W
+Type | Monocrystalline or Polycrystalline
 Maximum Power Pmpp | 30.0W 
 Open Circuit Voltage Voc  | 22.02V  
 Short Circuit Current Isc | 2.11A 
