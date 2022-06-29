@@ -1,7 +1,14 @@
 # PV_Data_Collection
  
-Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing a data collection system. This system automatically collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
+Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing an automatic data collection system. This system collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
 
+## Data-set Link
+
+Google Drive
+
+<https://drive.google.com/drive/folders/1s6uMW6d0xD_Iv5dUj78k7jUzsvoMfuV4?usp=sharing> 
+
+Least Update in 29, June, 2022
 
 ##	PV strings (PVS) characteristic recording system
 
@@ -47,11 +54,11 @@ Parameter| Value
  ---- | ----- 
 Name | SWM10W
 Maximum Power Pmpp | 10.00W 
-Open Circuit Voltage Voc  | 18.68V  
-Short Circuit Current Isc | 0.53A 
-Voltage at Pmpp | xxV  
-Current at Pmpp | xxA 
-Cells per Module | xx 
+Open Circuit Voltage Voc  | 22.32V  
+Short Circuit Current Isc | 0.58A 
+Voltage at Pmpp | 18.18V  
+Current at Pmpp | 0.55A 
+Cells per Module | 36 (Mono-crystalline silicon) 
 Size | 290 \times 240 \times 17 mm
 Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
@@ -68,11 +75,12 @@ The specifications for the PV modules in this data collection system is shown as
 Monocrystalline/Polycrystalline 30W PV module
 Parameter| Value 
  ---- | -----  
+Name | XKD-30W
 Maximum Power Pmpp | 30.0W 
-Open Circuit Voltage Voc  | 21.5V  
-Short Circuit Current Isc | 2.5A 
-Voltage at Pmpp | 18.5V  
-Current at Pmpp | 1.5A   
+Open Circuit Voltage Voc  | 22.02V  
+Short Circuit Current Isc | 2.11A 
+Voltage at Pmpp | 17.95V  
+Current at Pmpp | 1.92A   
 
 (To be continued)
 
