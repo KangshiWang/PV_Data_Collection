@@ -1,6 +1,6 @@
 # PV_Data_Collection
  
-Today, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. I am developing an automatic data collection system. This system collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
+Nowadays, photovoltaic (PV) systems are widely integrated in industrial, commercial and residential applications. The output characteristics of PV systems are affected by atmospheric conditions and device aging. This automatic data collection system collects and records the output characteristics and atmospheric conditions of the PV system. The details of the system are as follows.
 
 ## Data-set Link
 
@@ -94,8 +94,25 @@ The PVMs system records light (in LUS), temperature (in Celsius), humidity (in %
  
  <span style="color:#333333">`endframe_pv='_A';` </span>  
  
- Run it, you can have a preview of characsterstic and atmospheric data about PVM A in 2022-06-28. 
+Run it, you can have a preview of characsterstic and atmospheric data about PVM A in 2022-06-28. 
 
+##	Important Updates
+1. From 2022/07/02, new temperature sensors are added into the systems. For PV panels used in PVS and PVM data collection systems, three different temperature sensors are placed on the front, side and back of the PV panel. These data are stored in the folder **PVM1/PV_TempSensors/** and **PVS1/PV_TempSensors/**. Run the script **previewCompare2days.m**, you can get a figure that shows the comparsions between the ambient temperature and the PVM's temperature on a specific day. For example:
+<div align="center">
+  <img src="https://github.com/KangshiWang/pics/blob/main/6.bmp">
+</div> 
+
+
+##	Pictures
+1. Rooftop system
+<div align="center">
+  <img src="https://github.com/KangshiWang/pics/blob/main/7.jpg">
+</div> 
+
+2. Indoor host PCs and DC Loads
+<div align="center">
+  <img src="https://github.com/KangshiWang/pics/blob/main/8.jpg">
+</div> 
 (To be continued)
 
 ##	Cautions
