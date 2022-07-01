@@ -8,7 +8,7 @@ Google Drive
 
 <https://drive.google.com/drive/folders/1s6uMW6d0xD_Iv5dUj78k7jUzsvoMfuV4?usp=sharing> 
 
-Least Update in 29, June, 2022
+Last Update in 29, June, 2022
 
 ##	PV strings (PVS) characteristic recording system
 
