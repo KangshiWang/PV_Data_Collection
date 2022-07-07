@@ -8,7 +8,7 @@ Google Drive
 
 <https://drive.google.com/drive/folders/1s6uMW6d0xD_Iv5dUj78k7jUzsvoMfuV4?usp=sharing> 
 
-Last Update in 29, June, 2022
+Last Update on 29, June, 2022
 
 ##	PV strings (PVS) characteristic recording system
 
@@ -70,7 +70,7 @@ Manufactor | DONGGUAN SUNWORLD CO.,LTD
 
 Unlike the PVS characteristic recording system, the PVM characteristic recording system records the output characteristics of different PV modules. They have a similar system architecture, but different switching systems. The design files of the automatic switching system used in the PVM characteristic recording system could be found here: . 
 
-Under the folder **PVM1/PV_dcLoad**, different PVM's output characteristics are recorded. The folders are name with YYYY-MM-DD-Z, where Z is the module id form 'A' to 'Z'. For example, under the folder **PVM1/PV_dcLoad/2022-06-28_A**, it records the output characteristics of the PVM A in 2022-06-28. As for now, the chanel A-E and T-X, totally 10 chanels are used.
+Under the folder **PVM1/PV_dcLoad**, different PVM's output characteristics are recorded. The folders are name with YYYY-MM-DD-Z, where Z is the module id form 'A' to 'Z'. For example, under the folder **PVM1/PV_dcLoad/2022-06-28_A**, it records the output characteristics of the PVM A on 2022-06-28. As for now, the chanel A-E and T-X, totally 10 chanels are used.
 
 Chanel A-Z: Polycrystalline XKD-30W
 
@@ -94,7 +94,7 @@ The PVMs system records light (in LUS), temperature (in Celsius), humidity (in %
  
  <span style="color:#333333">`endframe_pv='_A';` </span>  
  
-Run it, you can have a preview of characsterstic and atmospheric data about PVM A in 2022-06-28. 
+Run it, you can have a preview of characsterstic and atmospheric data about PVM A on 2022-06-28. 
 
 ##	Important Updates
 1. From 2022/07/02, new temperature sensors are added into the systems. For PV panels used in PVS and PVM data collection systems, three different temperature sensors are placed on the front, side and back of the PV panel. These data are stored in the folder **PVM1/PV_TempSensors/** and **PVS1/PV_TempSensors/**. Run the script **previewCompare2days.m**, you can get a figure that shows the comparsions between the ambient temperature and the PVM's temperature on a specific day. For example:
